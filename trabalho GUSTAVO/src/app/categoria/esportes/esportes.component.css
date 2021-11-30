@@ -1,0 +1,39 @@
+.breadcrumb{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.contador{
+    margin: 15px;
+}
+.container{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.produtos img {
+    max-width: 80%;
+    max-height: 90%;
+}
+.texto{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+.texto p{
+    font-weight: 500;
+    color: #fff;
+    margin: 2px;
+    background-color: #7e7979;
+}
+.produtos{
+    border: 1px #000 solid;
+    background-color: #eff2f5c9;
+    padding-top: 3px;
+    margin: 15px;
+    height: 330px;
+    width:200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}

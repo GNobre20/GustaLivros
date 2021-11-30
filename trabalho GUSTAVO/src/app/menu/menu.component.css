@@ -1,0 +1,32 @@
+.tela{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cat p {
+    color: #fff;
+    background-color: #7e7979;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.cat p:hover {
+    margin-left: 15px;    
+}
+
+.cat{
+    position:fixed;
+    padding-top: 50px;
+    background-color: #000;
+    align-items: center;
+    width:15%;
+    height: 100vh;
+}
+
+.produtos{
+   margin-left:15% ;
+    width: 80%;
+
+}

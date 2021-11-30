@@ -1,0 +1,18 @@
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/inicio']" routerLinkActive="active">Inicio</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/esportes']" routerLinkActive="active">Esportes</li>
+        </ol>
+    </nav>
+    <div class="contador">produtos: {{livros.length}} </div>
+</div>
+<div class="container justify-content-arond">
+    <div class="produtos card" *ngFor="let livro of livros">
+        <img [src]="livro.img" alt="imagem livro">
+        <div class="texto">   
+            <p> {{livro.produto}} </p>
+            <p> {{livro.autor}} </p>
+        </div>
+    </div>
+</div>

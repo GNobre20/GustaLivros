@@ -1,0 +1,8 @@
+<div class="tela">
+    <div class="cat">
+            <p *ngFor="let categoria of categorias" [routerLink]="['/', categoria.rota]" routerLinkActive="active">{{categoria.nome}}</p>
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>
